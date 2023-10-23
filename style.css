@@ -1,0 +1,934 @@
+/* Default Css Start */
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+}
+span,a,button{
+    font-family: 'Roboto', sans-serif;
+}
+button:focus{
+    box-shadow: none !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.tb-80{
+    transform: translateY(80px);
+}
+.default-btn {
+	background: #20AD96;
+	color: white !important;
+	font-weight: 400;
+	font-size: 15px;
+	display: inline-block;
+    padding: 15px 35px;
+    border: transparent;
+    transition: all .2s ease-in-out;
+}
+.default-btn:hover{
+    background: #3F3A64;
+}
+/* Default Css End */
+
+/* Header Saction Css Start */
+
+.header{
+    
+}
+.header-brand{}
+.header-brand img{
+    width: 160px;
+}
+.header-nav{}
+.header-nav > li{
+    position: relative;
+    display: inline-block;
+}
+.header-nav > li > a {
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+	font-family: unset;
+	padding: 20px 0 !important;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: inline-block;
+}
+.header-nav > li > a > span {
+	font-size: 9px;
+	margin-left: 3px;
+	display: inline-block;
+}
+.header-nav > li > a::before{
+    content: "";
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all .3s linear;
+}
+.header-nav > li > a:hover::before{
+    transform: scaleX(1);
+}
+.header-nav > li > ul{
+    position: absolute;
+    top: 130%;
+    width:240px;
+    background: #fff;
+    border-bottom: 4px solid #20ad96;
+    padding: 20px 0;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.header-nav > li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+.header-nav > li > ul > li{
+    display: block;
+}
+.header-nav > li > ul > li > a {
+	font-size: 16px;
+	color: #777;
+	display: block;
+	padding: 9px 25px !important;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+    font-weight: 400;
+}
+.header-nav > li > ul > li > a:hover{
+    color: #000;
+}
+/* Header Saction Css End */
+
+/* Banar Saction Css Start */
+
+
+.banar{
+    padding-top: 5rem;
+    position: relative;
+}
+.banar-text{
+}
+.banar-text-media{
+    position: relative;
+    animation-name: banarTExtMove;
+    animation-direction: reverse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+}
+@keyframes banarTExtMove{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(20px);opacity: .3;}
+}
+.banar-text h1 {
+	font-size: 46px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+.banar-text h4 {
+	color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.banar-text button:focus{
+    box-shadow: none;
+}
+.banar-text button {
+	background: #20ad96;
+	padding: 0px 20px !important;
+	padding-top: 15px !important;
+    padding-bottom: 12px !important;
+    font-weight: bold;
+}
+.banar-info{
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.banar-info1{}
+.banar-info1 img{}
+.banar-media {
+	border: 21px solid white;
+    border-radius: 15px;
+    background:#fff;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.3);
+}
+.banar-media-video {
+	border-radius: 20px;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.banar-media:hover .banar-media-video{
+    transform: scale(1.08);
+}
+.banar-info2{
+    position: absolute;
+    bottom: 0;
+}
+/* Banar Saction Css End */
+
+/* Quote Saction Css Start */
+
+.quote{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.carousel-item-text{}
+.carousel-item-text h2 {
+	font-size: 34px;
+	font-weight: 700;
+	color: #333333;
+    line-height: 1.52em;
+    width: 75%;
+    margin: auto;
+}
+.carousel-item-text h5 {
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.carousel-item-text p{
+    font-size: 14px;
+    color: #7e7e7e;
+}
+
+
+/* Quote Saction Css End */
+
+/* Coundown Saction Css Start */
+
+.coundown{
+    padding-bottom: 120px;
+}
+.coundown-item{}
+.coundown-item h4{
+    font-size: 48px;
+    color: #20ad96;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.coundown-item span{
+    font-size: 15px;
+    font-weight: 700;
+    color: #696969;
+}
+
+/* Coundown Saction Css End */
+
+/* Learning Saction Css Start */
+
+.learning{
+   padding-bottom: 180px;
+   overflow: hidden;
+}
+.learning-left{}
+.learning-left-card{
+    box-shadow: 0px 0px 40px 0px rgba(51, 51, 51, 0.1);
+    border-radius: 8px;
+}
+.learning-left-card .card-body {
+    padding: 1.5rem 1.5rem;
+}
+.learning-left-card .card-body h5{
+    font-size: 20px;
+    color: #3F3A64;
+    font-weight: 700;
+}
+.learning-left-card .card-body p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #696969;
+}
+.learning-left-card .card-body img{}
+.learning-right{}
+.default-title h6 {
+	font-size: 15px;
+	color: #696969;
+	font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.default-title h1 {
+	font-size: 36px;
+	font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.default-title h1 span{
+    color: #20AD96;
+    font-weight: normal;
+}
+.default-title p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #696969;
+    line-height: 1.7em;
+}
+.learning-right ul li {
+    font-size: 21px;
+    font-weight: 400;
+    display: block;
+    color: #7A7A7A;
+    margin-top: 12px;
+}
+.learning-right ul li::before {
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	position: relative;
+	display: inline-block;
+	font-weight: 700;
+	color: #20AD96;
+	font-size: 15px;
+	margin-right: 20px;
+}
+/* Learning Saction Css End */
+
+/* Guidline Css Start */
+
+.guidline{
+    padding: 80px 0;
+    overflow: hidden;
+}
+.guidline-text a {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    line-height: 1.8em;
+}
+.guidline-text a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+    transform: scaleX(1) translateZ(0);
+    transform-origin: right;
+    transition: all .4s linear;
+}
+.guidline-text a:hover::before{
+    transform: scaleX(0) translateZ(0);
+}
+.guidline-text a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    transform: scaleX(0) translateZ(0);
+    transform-origin: left;
+    transition: all .5s linear;
+    transition-delay: .2s;
+}
+.guidline-text a:hover::after{
+    transform: scaleX(1) translateZ(0);
+}
+
+/* Guidline Css ENd */
+
+
+/* About Saction Css Start */
+
+.about{
+    padding: 80px 0;
+    overflow: hidden;
+}
+.about-info{
+    position: relative;
+    padding-top: 60px;
+    z-index: 1;
+    padding-bottom: 40px;
+}
+.about-info::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FAF8F6;
+    z-index: -1;
+    clip-path: polygon(13% 0 , 100% 0 , 100% 100% , 13% 100%);
+}
+.about-text{}
+.about-text > h4 {
+	font-size: 24px;
+	color: #3F3A64;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.about-text > h4 span{
+    color: #20AD96;
+}
+.about-text-media{}
+.about-text-media-left {
+	flex-shrink: 0;
+	flex-basis: 65%;
+}
+.about-text-media-left p {
+	font-size: 21px;
+	color: #696969;
+	line-height: 1.8em;
+}
+.about-text-media-right {
+	flex-basis: 30%;
+	margin-left: 5%;
+}
+.about-text-media-right h3 {
+	font-size: 45px;
+	font-weight: 800;
+}
+.about-text-media-right h3 span {
+	font-size: 24px;
+}
+.about-text-media-right p {
+	font-size: 15px;
+	color: #3F3A64;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.about-text-media-right a{
+    color: #696969;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* About Saction Css End */
+
+/* Class Saction Css Start */
+
+.class-saction{
+    padding: 100px 0;
+    margin-top: 80px;
+    background: #F8F8F8;
+}
+.class-saction h4 {
+    color: #3F3A64;
+    font-size: 24px;
+    font-weight: 600;
+}
+.class-saction h4 span {
+	color: #20AD96;
+	font-weight: 400;
+}
+.class-saction h2 {
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.class-saction a{}
+
+/* Class Saction Css End */
+
+/* Footer Saction Css Start */
+
+.footer{
+    background: linear-gradient(to right, #43cea2 , #185a9d) !important;
+    padding: 40px 0;
+}
+.footer-widget{
+    text-align: center;
+}
+.footer-widget p{
+    color: rgba(255,255,255,.5);
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.footer-widget ul li a {
+	color: white;
+	font-size: 16px;
+	text-transform: capitalize;
+	padding: 0 15px !important;
+}
+/* Footer Saction Css End */
+
+/* Massage Saction Css Start */
+
+.massage{}
+.massage a {
+	display: inline-block;
+	font-size: 46px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	line-height: 68px;
+	color: white;
+	background: #0abde3;
+	border-radius: 50%;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	z-index: 9;
+}
+.massage a span{
+    display: inline-block;
+}
+
+/* Massage Saction Css End */
+
+
+
+
+
+/* //  Course page csss  \\ */
+
+
+
+/* Header top Saction Start */
+
+.header-top{
+    background: #F5F5F5;
+    padding: 10px 0;
+}
+.header-top-left{}
+.header-top-left span {
+	display: inline-block;
+	font-size: 18px;
+	color: #1FAD96;
+	margin-right: 10px;
+}
+.header-top-left a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+	font-weight: 500;
+	display: inline-block;
+}
+.header-top-media{}
+.header-top-media-item{}
+.header-top-media-item a{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-top-media-item a:last-child{
+    margin-right: 0 !important;
+}
+.header-top-media-item a span{
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    transition: all .15s ease-in-out;
+}
+.header-top-media-item a span:hover{
+      color: #1fad96;
+}
+.header-top-media-item a i {
+	color: #1fad96;
+	margin-right: 8px;
+	display: inline-block;
+}
+
+
+/* Header top Saction End */
+
+
+
+/* Header-saction Css start */
+
+.default-header-nav > li > a{
+	color: #000;
+    transition: all .3s ease-in-out;
+    font-weight: 500;
+}
+.default-header-nav > li > a:hover{
+    color: #20AD96;
+}
+.default-header-nav > li > ul{
+    box-shadow: 3px 5px 29px rgba(0, 0, 0, 0.05);
+}
+.default-header-nav> li > a::before{
+    bottom: 16px;
+    height: 1px;
+    background: #20AD96;
+}
+/* Header-saction Css End */
+
+/* Breadcam Saction Css Start */
+
+.breadcam-saction{
+    background: linear-gradient(to right, #43cea2 , #185a9d) !important;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.breadcam-saction .breadcrumb{
+    background: transparent;
+    margin-bottom: 1rem !important;
+}
+.breadcam-saction .breadcrumb li {
+    font-size: 15px;
+    color: white;
+}
+.breadcam-saction .breadcrumb li a{
+    font-size: 15px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	padding-right: .5rem;
+	color: black;
+	content: "/";
+}
+.breadcam-saction h1 {
+	font-size: 33px;
+	color: white;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+}
+
+/* Breadcam Saction Css End */
+
+/* Course-action Saction Css Start */
+
+.course-action{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.course-action-top{}
+.course-action-top select {
+	width: 200px;
+    height: 50px;
+    transition: all .15s ease-in-out;
+}
+.course-action-top select:hover{
+    border: 1px solid #1fad96;
+}
+.course-action-top select:focus{
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+.course-action-top-form{
+    display: flex;
+    justify-content: flex-end;
+}
+.course-action-content{
+    margin-top: 30px;
+}
+.course-action-content .card{
+    border: none;
+    overflow: hidden;
+    transition: all .3s linear;
+   
+}
+.course-action-content .card:hover{
+     box-shadow:3px 3px 20px 16px rgba(0,0,0,0.1);
+}
+.course-action-content .card img{
+    transition: all .6s linear;
+}
+.course-action-content .card img:hover{
+    transform: scale(1.08);
+}
+.course-action-content .card .card-body{}
+.course-action-content .card .card-body h3 {
+	font-size: 25px;
+    font-weight: 800;
+    color: #1fad96;
+    margin-bottom: 10px;
+}
+.course-action-content .card .card-body a {
+	color: black;
+	font-size: 20px;
+	line-height: 1.6;
+    font-weight: 700;
+    transition: all .2s linear;
+}
+.course-action-content .card .card-body a:hover{
+    color: #1fad96;
+}
+.course-action-content .card .card-body span {
+	display: inline-block;
+	text-transform: capitalize;
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+	font-weight: 500;
+}
+.course-action-content .card .card-body span i{
+    display: inline-block;
+    margin-right: 5px;
+}
+/* Course-action Saction Css End */
+
+
+
+
+
+
+/* // Create account Page CSS Start \\ */
+
+/* Account Form Saction Css Start */
+
+.account-form{}
+.account-form form {}
+.account-form form .form-file {
+	width: 100px;
+    text-align: center;
+    border-radius: 50px;
+}
+.account-form form .form-file span {
+	display: block;
+	width: 100%;
+	line-height: 37px;
+	border: 2px solid #61CE70;
+    border-radius: 50px;
+    transition: all .1s linear;
+    cursor: pointer;
+    pointer-events: fill;
+}
+.account-form form .form-file:hover{
+    background-color: #61CE70;
+    color: white;
+}
+.account-form form select:focus{
+    box-shadow: none;
+    border: 2px solid rgba(0,0,0,.15);
+}
+.account-form form .label-star {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.account-form form input {
+	background: #F5F5F5;
+	border: 2px solid rgba(0,0,0,.15);
+}
+.account-form form input:focus{
+    border: 2px solid rgba(0,0,0,.15);
+}
+.account-form form select {
+	border: 2px solid rgba(0,0,0,.15);
+}
+.account-form form .label-star::before{
+    content: "*";
+    position: relative;
+    display: inline-block;
+    color: red;
+}
+.account-form form button{}
+.account-form form button.reg-btn {
+	background: linear-gradient(to right, #43cea2 , #32a0a0);
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-size: 15px;
+}
+.account-form form button.reg-btn:hover{
+    background: linear-gradient(to right, #32a0a0 , #43cea2 );
+}
+.account-form form button.log-btn {
+	width: 100%;
+	background: #eee;
+	height: 50px;
+    margin-left: 2%;
+    transition: all .3s ease-in-out;
+	text-transform: capitalize;
+}
+.account-form form button.log-btn:hover{
+    background: #e5e5e5;
+}
+
+.file-img {
+	width: 115px;
+	border: 2px solid white;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.3);
+	height: auto;
+}
+
+/* Account Form Saction Css End */
+
+
+
+
+
+/* // login page css start \\ */
+
+/* Login-form Saction Css Start */
+
+.login-form{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.login-form-media {
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding: 70px 60px;
+}
+.login-form-media-item{
+    position: relative;
+    margin-bottom: 25px;
+}
+.login-form-media-item input {
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	padding: 18px 50px;
+	border-radius: 50px;
+}
+.login-form-media-item span {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 25px;
+}
+.login-form-media .lyp {
+	display: inline-block;
+	font-size: 14px;
+	color: #6164c1;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.login-form-media form button{
+    background: linear-gradient(to right, #43cea2 , #32a0a0);
+	height: 50px;
+	color: white !important;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.login-form-media form button:hover{
+    background: linear-gradient(to right, #32a0a0, #43cea2);
+}
+.login-form-media p {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.login-form-media p a{
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6164c1;
+    font-size: 15px;
+}
+/* Login-form Saction Css End */
+
+
+
+
+
+/* // Contact Page Css Start \\ */
+
+
+/* Call-to-action Saction Start */
+
+.call-to-action{
+    padding: 40px 0;
+    overflow: hidden;
+}
+.call-to-action h1.title {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+.call-to-action-media{}
+.call-to-action-media-icon {
+	flex-basis: 15%;
+	flex-shrink: 0;
+}
+.call-to-action-media-icon span {
+	font-size: 28px;
+	color: #20AD96;
+	display: inline-block;
+}
+.call-to-action-media-text{
+    flex-basis: 85%;
+    flex-shrink: 0;
+}
+.call-to-action-media-text h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.call-to-action-media-text p {
+	color: #7A7A7A;
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.call-to-action-media-text p a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Call-to-action Saction End */
+
+/* Contact Form Css Start */
+
+.contact-form{
+    padding: 100px 0;
+}
+.contact-form-info{}
+.contact-form-info form{}
+.contact-form-info form input {
+	padding: 15px 15px;
+	border: 1px solid transparent;
+    background: #F5F5F5;
+    
+}
+.contact-form-info form input:focus{
+    border: 1px solid #20AD96;
+}
+.contact-form-info form textarea{
+    border: 1px solid transparent;
+    background: #F5F5F5;
+    
+}
+.contact-form-info form textarea:focus{
+    box-shadow: none;
+    border: 1px solid #20AD96;
+}
+.contact-form-link{}
+.contact-form-link a{
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all .2s linear;
+}
+.contact-form-link a span{
+    display: inline-block;
+    margin-right: 5px;
+}
+.contact-form-link a:hover{
+    color: #20AD96;
+}
+/* Contact Form Css End */
+
+
+
+
+/* Copyrightbyauthorlink */
+.Copyrightbyauthorlink{
+    text-decoration: none;
+    color: white;
+}
+.Copyrightbyauthorlink:hover{
+    color: white;
+}

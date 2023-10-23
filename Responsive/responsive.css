@@ -1,0 +1,503 @@
+/* Index page respnsive Css */
+@media all and (max-width:1050px) and (min-width:993px){
+    .header{
+        overflow: hidden;
+    }
+}
+@media all and (max-width:1200px){
+    .default-title h1 {
+        font-size: 28px;
+        line-height: 1.3em;
+    }
+    .default-title p {
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+    .guidline-text a {
+        font-size: 14px;
+    }
+    .header-nav > li > a {
+        padding: 9px 0 !important;
+        display: inline-block;
+    }
+    .massage a { 
+        bottom: 80px;
+    }
+}
+@media all and (max-width:992px){
+    .banar-info1 img {
+        width: 352px;
+    }
+    .coundown-item {
+        margin-bottom: 35px;
+    }
+    .learning-right {
+        margin-top: 150px;
+    }
+    .banar-text h1 {
+        font-size: 40px;
+    }
+    .banar-text h4 {
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+    .header-brand img {
+        width: 130px;
+    }
+    .carousel-item-text h2 {
+        font-size: 26px;
+        width: 85%;
+    }
+    .quote {
+        padding-top: 150px;
+    }
+    .coundown-item h4 {
+        font-size: 42px;
+        margin-bottom: 12px;
+    }
+    .coundown {
+        padding-bottom: 80px;
+    }
+    .default-title h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .learning-right ul li {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .default-btn {
+        font-size: 13px;
+        padding: 13px 25px;
+    }
+    .learning {
+        padding-bottom: 130px;
+    }
+    .about-text > h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .about-text-media-left p {
+        font-size: 16px;
+        line-height: 1.6em;
+    }
+    .about-text-media-right h3 {
+        font-size: 35px;
+    }
+    .about-text-media-right h3 span {
+        font-size: 20px;
+    }
+    .about-text-media-right p {
+        font-size: 14px;
+    }
+    .about-text-media-right a {
+        font-size: 13px;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .class-saction h4 {
+        font-size: 19px;
+    }
+    .header-nav > li > a::before {
+        bottom: 6px;
+    }
+}
+@media all and (max-width:768px){
+    .banar-info1 img {
+        width: 320px;
+    }
+    .header-brand img {
+        width: 100px;
+    }
+    .banar-text h1 {
+        font-size: 32px;
+    }
+    .banar-text h4 {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    .banar-text button {
+        padding: 0px 14px !important;
+        padding-top: 11px !important;
+        padding-bottom: 10px !important;
+        font-size: 14px;
+    }
+    .banar-info { 
+        top: 60px;
+    }
+    .learning-left-card {
+        transform: translateY(0) !important;
+    }
+    .learning {
+        padding-bottom: 70px;
+    }
+    .learning-right {
+        margin-top: 60px;
+    }
+    .guidline-text {
+        margin-top: 50px;
+    }
+    .default-title h1 {
+        font-size: 23px;
+    }
+    .carousel-item-text h2 {
+        font-size: 20px;
+        width: 90%;
+    }
+    .carousel-item-text h5 {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .quote {
+        padding-top: 50px; 
+        padding-bottom: 65px;
+    }
+    .coundown {
+        padding-bottom: 60px;
+    }
+    .about-img img {
+        display: block;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .about-info::before {
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+    }
+    .about-text > h4 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .about-text-media-left p {
+        font-size: 15px;
+    }
+    .class-saction {
+        margin-top: 0;
+    }
+    .about-text {
+        margin-left: 30px;
+    }
+    .footer-widget ul li a {
+        font-size: 14px;
+        padding: 0 6px !important;
+    }
+    .footer-widget p {
+        font-size: 15px;
+    }
+}
+@media all and (max-width:576px){
+    .banar-info {
+	    overflow: hidden;
+    }
+    .banar-info1 img {
+        width: 200px;
+    }
+    .banar-info2 img {
+        width: 160px;
+    }
+    .header-brand img {
+        width: 80px;
+    }
+    .banar-text h1 {
+        font-size: 26px;
+    }
+    .banar-text h4 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .banar-text button {
+        padding: 0px 6px !important;
+        padding-top: 9px !important;
+        padding-bottom: 8px !important;
+        font-size: 12px;
+    }
+    .carousel-item-text h2 {
+        font-size: 18px;
+        width: 100%;
+        font-weight: 500;
+    }
+    .coundown-item h4 {
+        font-size: 35px;
+    }
+    .coundown-item span {
+        font-size: 13px;
+    }
+    .learning-left-card .card-body h5 {
+        font-size: 18px;
+    }
+    .learning-left-card .card-body p {
+        font-size: 13px;
+    }
+    .default-title h1 {
+        font-size: 18px;
+    }
+    .learning-right ul li {
+        font-size: 15px;
+    }
+    .learning-right ul li::before {
+        font-size: 14px;
+    }
+    .default-btn {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    .learning {
+        padding-bottom: 40px;
+    }
+    .default-title h6 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .default-title h1 {
+        font-size: 16px;
+    }
+    .guidline-text a {
+        font-size: 13px;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .about-text > h4 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .about-text-media-left p {
+        font-size: 14px;
+    }
+    .about-text-media-right h3 span {
+        font-size: 15px;
+    }
+    .about-text-media-right h3 {
+        font-size: 28px;
+    }
+    .about-text-media-right p {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .about-text-media-right a {
+        font-size: 11px;
+    }
+    .about-text {
+        margin-left: 15px;
+    }
+    .class-saction h4 {
+        font-size: 15px;
+    }
+    .class-saction h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .class-saction {
+        padding: 50px 0;
+    }
+    .footer-widget p {
+        font-size: 14px;
+    }
+    .footer-widget ul li a {
+        font-size: 12px;
+        padding: 0 5px !important;
+    }
+    .massage a {
+        font-size: 30px;
+        width: 42px;
+        height: 42px;
+        line-height: 44px;
+    }
+}
+
+
+
+
+/* Course page responsive css  */
+@media all and (max-width:1200px){}
+@media all and (max-width:992px){
+    .breadcam-saction h1 {
+        font-size: 28px;
+    }
+    .breadcam-saction {
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+    .breadcam-saction .breadcrumb {
+        margin-bottom: .3rem !important;
+    }
+    .course-action-top select {
+        width: 180px;
+        height: 44px;
+    }
+    .course-action-content .card .card-body h3 {
+        font-size: 22px;
+    }
+    .course-action-content .card .card-body a {
+        font-size: 18px;
+    }
+    .course-action {
+        padding-bottom: 70px;
+    }
+}
+@media all and (max-width:768px){
+    .header-top-left {
+        text-align: center;
+    }
+    .header-top-media-item {
+        justify-content: center !important;
+        margin-top: 11px;
+    }
+    .header-top-media-item a span {
+        font-size: 14px;
+    }
+    .header-top-left a {
+        font-size: 15px;
+    }
+    .breadcam-saction h1 {
+        font-size: 22px;
+    }
+    .course-action-top select {
+        width: 150px;
+        height: 38px;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:576px){
+    .course-action-top-form {
+        justify-content: start;
+        margin-top: 20px;
+    }
+    .breadcam-saction h1 {
+        font-size: 20px;
+    }
+    .header-top-left a {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Contact page responsive css */
+
+@media all and (max-width:992px){
+    .call-to-action h1.title {
+        font-size: 30px;
+        width: 90% !important;
+    }
+    .call-to-action-media-icon {
+        flex-basis: 10%;
+    }
+    .contact-form {
+        padding: 60px 0;
+    }
+}
+@media all and (max-width:768px){
+    .call-to-action h1.title {
+        font-size: 25px;
+        width: 100% !important;
+    }
+    .call-to-action-media-text h5 {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    .call-to-action-media-icon span {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .call-to-action-media-text p {
+        font-size: 15px;
+    }
+    .contact-form {
+        padding: 40px 0;
+    }
+}
+@media all and (max-width:576px){
+    .call-to-action h1.title {
+        font-size: 20px;
+    }
+    .call-to-action-media-text h5 {
+        margin-bottom: 7px;
+        font-size: 16px;
+    }
+    .call-to-action-media-text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .call-to-action-media-icon span {
+        font-size: 20px;
+    }
+    .call-to-action-media-icon {
+        flex-basis: 9%;
+    }
+}
+
+@media all and (max-width:500px){
+    .call-to-action-media-icon {
+        flex-basis: 13%;
+    }
+    .contact-form-link a {
+        font-size: 14px;
+    }
+    .call-to-action h1.title {
+        font-size: 17px;
+    }
+    .contact-form {
+        padding: 20px 0;
+    }
+}
+
+
+/* Login Page Responsive Css */
+
+@media all and (max-width:550px){
+    .login-form-media-item input {
+        font-size: 13px;
+    }
+    .login-form-media-item span {
+        font-size: 13px;
+    }
+    .login-form-media .lyp {
+        font-size: 12px;
+        display: block;
+        margin-top: 13px;
+        position: relative;
+    }
+    .login-form-media-item input {
+        font-size: 14px;
+        padding: 13px 50px;
+    }
+    .login-form {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .login-form-media p {
+        font-size: 14px;
+    }
+}
+
+
+/* Login Page responsive css */
+
+@media all and (max-width:768px){
+    .file-img {
+        width: 90px;
+    }
+    .account-form form .label-star {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:576px){
+    .account-form form button.log-btn {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .account-form form button.reg-btn {
+        width: 100%;
+    }
+    .account-form form .label-star {
+        font-size: 15px;
+    }
+    .file-img {
+        width: 70px;
+    }
+}
